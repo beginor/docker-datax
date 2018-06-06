@@ -13,5 +13,5 @@ mv datax /opt/
 rm datax.tar.gz
 
 apt-get purge -y wget
-apt-get autoremove
+apt-get autoremove -y
 rm -rf /var/lib/apt/lists/*
