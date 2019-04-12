@@ -1,6 +1,4 @@
-#!/usr/bin/env bash
-### every exit != 0 fails the script
-set -e
+#!/bin/bash -e
 
 # update && install require packages
 apt-get update
